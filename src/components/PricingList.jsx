@@ -28,12 +28,21 @@ const PricingList = () => {
           </div>
 
           <Button
-            className="w-full mb-6"
+            className="w-full mb-2"  // Adjusted margin for pacing
             href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
             white={!!item.price}
           >
             {item.price ? "Get started" : "Contact us"}
           </Button>
+
+          <Button
+            className="w-full pt-4"  // Added padding for spacing
+            href="/brouche"
+            white={false} 
+            
+          >
+            Brouchere
+          </Button> 
 
           <ul>
             {item.features.map((feature, index) => (

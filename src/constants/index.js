@@ -108,6 +108,7 @@ export const roadmap = [
     date: "May 2023",
     status: "progress",
     imageUrl: roadmap2,
+    colorful: true,
   },
   {
     id: "2",
@@ -116,6 +117,7 @@ export const roadmap = [
     date: "May 2023",
     status: "done",
     imageUrl: roadmap3,
+    colorful: true,
   },
   {
     id: "3",
@@ -124,8 +126,19 @@ export const roadmap = [
     date: "May 2023",
     status: "progress",
     imageUrl: roadmap4,
+    colorful: true,
+  },
+  {
+    id: "3",
+    title: "Integration with APIs",
+    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+    date: "May 2023",
+    status: "progress",
+    imageUrl: roadmap4,
+    colorful: true,
   },
 ];
+
 
 export const collabText =
   "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
@@ -244,7 +257,7 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
+    title: "Technical Events",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
@@ -252,8 +265,8 @@ export const benefits = [
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Cultural Events",
+    text: "The app uses natural language to understand user queries and provide accurate and relevant responses.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,35 +274,10 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
+    title: "Gaming Events",
     text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
-    light: true,
-  },
-  {
-    id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
 ];
